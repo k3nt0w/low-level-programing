@@ -60,7 +60,7 @@ $ docker build -t low-level-programming .
 
 元コードは書籍の p28 のリスト 2-4 です．
 
-```asm
+```avrasm
 section .data
 message: db 'hello, world!', 10
 

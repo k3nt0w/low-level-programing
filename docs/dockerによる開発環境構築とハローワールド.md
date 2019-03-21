@@ -30,6 +30,13 @@
 この本では`Debian GNU\Linux 8.0`の環境を推奨されていますが，
 いつも触っている Macbook で実行したいので Docker を使って環境を整えます．
 
+目標とする実行環境は以下です。
+
+- OS: Debian GNU\Linux 8.0
+- アセンブラ: NASM
+- ビルドシステム: GNU make
+- デバッガ: GDB
+
 まずは Dockerfile を作成します．
 書籍の実行環境となるべく揃えたいのでイメージは`debian:8`を使用しましょう．
 
